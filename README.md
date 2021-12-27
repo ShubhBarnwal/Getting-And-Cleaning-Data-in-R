@@ -30,10 +30,10 @@ datasets, a codebook describing all relevnet info, and this readme file.
    Extract only the measurements on the mean and standard deviation for each measurement
    Appropriately label the data set with descriptive variable names
 
-- Merge the training and the test sets to create one tidy data set: mydata
+- Merge the training and the test sets to create one tidy data set: FinalData
    Use descriptive activity names to name the activities in the data set
 
-- Create a second, independent tidy data set with the average of each variable for each activity and each subject: mydata2
+- Create a second, independent tidy data set with the average of each variable for each activity and each subject: FinalData
 
 - Take averages for each activity
 
@@ -42,9 +42,8 @@ datasets, a codebook describing all relevnet info, and this readme file.
 - Merge the two sets of averages
    Make Feature a labelled column rather than row names in accordance with tidy data theory
 
-- View the first tidy data set: mydata
+- View the first tidy data set: FinalData
 
-- View the second tidy data set: mydata2
   
 ###Some additional notes about the code in 'run_analysis.R'
 
