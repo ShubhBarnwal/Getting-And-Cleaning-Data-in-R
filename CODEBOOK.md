@@ -141,20 +141,12 @@ For each record in the dataset it is provided:
 - Load testing data  
    Extract only the measurements on the mean and standard deviation for each measurement
    Appropriately label the data set with descriptive variable names
-- Merge the training and the test sets to create one tidy data set: mydata
+- Merge the training and the test sets to create one tidy data set: FinalData
    Use descriptive activity names to name the activities in the data set
-- Create a second, independent tidy data set with the average of each variable for each activity and each subject: mydata2
+- Create a second, independent tidy data set with the average of each variable for each activity and each subject: FinalData
 - Take averages for each activity
 - Take averages for each subject
 - Merge the two sets of averages
    Make Feature a labelled column rather than row names in accordance with tidy data theory
-- View the first tidy data set: mydata
-- View the second tidy data set: mydata2
-
-
-##Final Data Sets
-- mydata: a dataset where all Features and Identifiers are variables and each row is a unique measurement for each subject and activity
-- mydata2: a dataset where each unique Identifier is a variable and each row is the set of averages of each variable for each activity 
-and each subject
-
+- View the first tidy data set: FinalData
 
